@@ -48,7 +48,13 @@ main {
     align-items: center;
     gap: 1.125rem;
     margin: 0 3.4375rem 1.125rem 0;
-
+}
+label {
+    display: inline-block;
+    margin-block: 1.6875rem .75rem;
+}
+input {
+    margin-bottom: 1.5rem;
 }
 
 .success-msg {
