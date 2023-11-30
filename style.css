@@ -40,6 +40,17 @@ main {
 .header-signup {
     margin-block: 2.75rem 1.625rem;
 }
+.paragraph-signup {
+    margin-bottom: 1.75rem;
+}
+.features span {
+    display: flex;
+    align-items: center;
+    gap: 1.125rem;
+    margin: 0 3.4375rem 1.125rem 0;
+
+}
+
 .success-msg {
     display: none;
 }
