@@ -53,6 +53,9 @@ label {
     display: inline-block;
     margin-block: 1.6875rem .75rem;
 }
+/* button {
+    display: block;
+} */
 input {
     margin-bottom: 1.5rem;
 }
