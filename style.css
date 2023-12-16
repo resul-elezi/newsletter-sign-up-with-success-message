@@ -29,33 +29,37 @@
 }
 html {
     font-family: 'Roboto', sans-serif;
+    padding: 0;
 }
 main {
     min-height: 100vh;
     min-height: 100svh;
 }
+.mobile-illust {
+ width: 100%;  
+}
 .sign-up {
-    margin-left: 1.5rem; 
+    margin-top: 2rem;
+    margin-left: 1.5rem;
 }
 .header-sign-up {
-    margin-block: 2.75rem 1.625rem;
+    margin-bottom: 1.25rem;
+    font-size: 2.5rem;
 }
 .paragraph-sign-up {
     margin-bottom: 1.75rem;
+    line-height: 25px;
 }
 .features span {
     display: flex;
     align-items: center;
     gap: 1.125rem;
-    margin: 0 3.4375rem 1.125rem 0;
+    margin: 0 3.4rem 1.125rem 0;
 }
 label {
     display: inline-block;
     margin-block: 1.6875rem .75rem;
 }
-/* button {
-    display: block;
-} */
 input {
     margin-bottom: 1.5rem;
 }
