@@ -43,12 +43,12 @@ main {
     margin-left: 1.5rem;
 }
 .header-sign-up {
-    margin-bottom: 1.25rem;
+    margin-bottom: 1.2rem;
     font-size: 2.5rem;
 }
 .paragraph-sign-up {
     margin-bottom: 1.75rem;
-    line-height: 25px;
+    line-height: 24px;
 }
 .features span {
     display: flex;
