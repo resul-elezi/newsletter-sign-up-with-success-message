@@ -52,7 +52,7 @@ main {
 }
 .features span {
     display: flex;
-    align-items: center;
+    align-items: start;
     gap: 1.125rem;
     margin: 0 3.4rem 1.125rem 0;
 }
