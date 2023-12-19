@@ -29,7 +29,6 @@
 }
 html {
     font-family: 'Roboto', sans-serif;
-    padding: 0;
 }
 main {
     min-height: 100vh;
@@ -47,15 +46,17 @@ main {
     font-size: 2.5rem;
 }
 .paragraph-sign-up {
-    margin-bottom: 1.75rem;
+    margin-bottom: 1.5rem;
     line-height: 24px;
 }
 .features span {
     display: flex;
-    align-items: start;
-    gap: 1.125rem;
-    margin: 0 3.4rem 1.125rem 0;
+    align-items: flex-start;
+    gap: 1rem;
+    margin: 0 3.4rem .625rem 0;
+    line-height: 24px;
 }
+
 label {
     display: inline-block;
     margin-block: 1.6875rem .75rem;
