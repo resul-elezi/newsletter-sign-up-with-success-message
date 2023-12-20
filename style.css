@@ -63,6 +63,8 @@ main {
 label {
     display: inline-block;
     margin-block: 1.6875rem .75rem;
+    font-size: .75rem;
+    font-weight: 700;
 }
 input {
     margin-bottom: 1.5rem;
