@@ -39,7 +39,7 @@ main {
 }
 .sign-up {
     margin-top: 2rem;
-    margin-left: 1.5rem;
+    margin-inline: 1.5rem;
 }
 .header-sign-up {
     margin-bottom: 1.2rem;
@@ -53,7 +53,7 @@ main {
     display: flex;
     align-items: flex-start;
     gap: 1rem;
-    margin: 0 3.4rem .625rem 0;
+    margin: 0 0 .625rem 0;
     line-height: 24px;
 }
 .features img {
@@ -67,7 +67,10 @@ label {
 }
 input {
     margin-bottom: 1.5rem;
-    /* min-width: 100%; */
+    width: 100%;
+}
+button {
+    width: 100%;
 }
 
 .success-msg {
