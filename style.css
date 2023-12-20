@@ -59,15 +59,15 @@ main {
 .features img {
     padding-top: .125rem;
 }
-
 label {
     display: inline-block;
-    margin-block: 1.6875rem .75rem;
+    margin-block: 2.0625rem .75rem;
     font-size: .75rem;
     font-weight: 700;
 }
 input {
     margin-bottom: 1.5rem;
+    min-width: 100%;
 }
 
 .success-msg {
