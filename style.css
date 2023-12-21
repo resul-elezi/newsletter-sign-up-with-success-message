@@ -78,6 +78,7 @@ input {
     border-radius: .5rem;
     border: 1px solid var(--grey);
     outline: none;
+    cursor: pointer;
 }
 ::placeholder {
     font-size: 1rem;
@@ -89,7 +90,12 @@ button {
     color: var(--white);
     font-size: 1rem;
     border-radius: .5rem;
+    cursor: pointer;
     border: none;
+    transition: background-image 1s linear;
+}
+button:hover {
+    background-image: linear-gradient(to right, #ff3e83, #ff673e);
 }
 .error .email-msg {
     display: block;
