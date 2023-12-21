@@ -60,10 +60,15 @@ main {
     padding-top: .125rem;
 }
 label {
-    display: inline-block;
+    display: flex;
+    justify-content: space-between;
     margin-block: 2.0625rem .625rem;
     font-size: .75rem;
     font-weight: 700;
+}
+.email-msg {
+    /* display: none; */
+    color: var(--tomato);
 }
 input {
     margin-bottom: 1.5rem;
