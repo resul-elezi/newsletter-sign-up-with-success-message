@@ -91,7 +91,13 @@ button {
     border-radius: .5rem;
     border: none;
 }
-
+.error .email-msg {
+    display: block;
+}
+.error #email {
+    border: 1px solid var(--tomato);
+    background: rgba(255, 98, 87, .1);
+}
 .success-msg {
     display: none;
 }
