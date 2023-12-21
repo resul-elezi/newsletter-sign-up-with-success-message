@@ -62,12 +62,12 @@ main {
 label {
     display: flex;
     justify-content: space-between;
-    margin-block: 2.0625rem .625rem;
+    margin-block: 2.6875rem .625rem;
     font-size: .75rem;
     font-weight: 700;
 }
 .email-msg {
-    /* display: none; */
+    display: none;
     color: var(--tomato);
 }
 input {
