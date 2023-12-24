@@ -84,9 +84,9 @@ input {
     font-size: 1rem;
 }
 button {
+    position: relative;
     width: 100%;
     height: 3.5rem;
-    background-image: linear-gradient(to right, #ff3e83, #ff673e);
     background: var(--dark-slate-grey);
     
     /* var(--dark-slate-grey); */
@@ -95,12 +95,24 @@ button {
     border-radius: .5rem;
     cursor: pointer;
     border: none;
-    transition: background .25s linear;
-}
-button:hover {
-    background: transparent; 
+    z-index: 1;
     
-    /* linear-gradient(to right, #ff3e83, #ff673e); */
+}
+button::before {
+    content: '';
+    position: absolute;
+    border-radius: .5rem;
+    top:0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-image: linear-gradient(to right, #fd5376, #ff6257);
+    opacity: 0;
+    transition: opacity .3s linear;
+    z-index: -1;
+}
+button:hover::before {
+    opacity: 1;
 }
 .error .email-msg {
     display: block;
