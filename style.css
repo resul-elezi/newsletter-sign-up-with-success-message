@@ -36,7 +36,7 @@ main {
 }
 .mobile-illust {
     display: none;
- width: 100%;  
+    width: 100%;  
 }
 .sign-up {
     display: none;
@@ -124,6 +124,7 @@ button:hover::before {
 .success-msg {
     display: flex;
     flex-direction: column;
+    margin-inline: 1.5rem;
 }
 .attribution {
     font-size: 11px; text-align: center; 
