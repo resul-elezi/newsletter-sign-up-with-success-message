@@ -35,9 +35,11 @@ main {
     min-height: 100svh;
 }
 .mobile-illust {
+    display: none;
  width: 100%;  
 }
 .sign-up {
+    display: none;
     margin-top: 2rem;
     margin-inline: 1.5rem;
 }
@@ -120,7 +122,8 @@ button:hover::before {
     background: rgba(255, 98, 87, .1);
 }
 .success-msg {
-    display: none;
+    display: flex;
+    flex-direction: column;
 }
 .attribution {
     font-size: 11px; text-align: center; 
