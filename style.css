@@ -124,11 +124,11 @@ button:hover::before {
 .success-msg {
     display: flex;
     flex-direction: column;
-    margin-inline: 1.5rem;
+    margin: 9.3125rem 1.5rem 2.4375rem 1.5rem;
 }
 .success-msg img {
     width: 4rem;
-    margin: 9.3125rem 0 2.5rem 0;
+    margin-bottom: 2.5rem;
 }
 .success-msg h1 {
     font-size: 2.5rem;
