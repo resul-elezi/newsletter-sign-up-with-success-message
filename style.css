@@ -135,7 +135,11 @@ button:hover::before {
 .success-msg h1 {
     font-size: 2.5rem;
     line-height: 2.5rem;
-    margin-bottom: 1.625rem;
+    margin-bottom: 1.5rem;
+}
+.success-msg p {
+    line-height: 1.5;
+    margin-bottom: 17rem;
 }
 .attribution {
     font-size: 11px; text-align: center; 
