@@ -139,9 +139,10 @@ button:hover::before {
 }
 .success-msg p {
     line-height: 1.5;
-    margin-bottom: 17rem;
+    margin-bottom: 16.5rem;
 }
 .attribution {
+    display: none;
     font-size: 11px; text-align: center; 
 }
 .attribution a {
