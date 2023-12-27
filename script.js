@@ -4,6 +4,10 @@ const EMAIL = document.getElementById("email");
 const BUTTON = document.getElementById("submit");
 const FORM = document.getElementById("form");
 const ERROR_MSG = document.querySelector(".email-msg");
+const M_ILLUSTRATION = document.querySelector(".mobile-illust");
+const SIGN_UP_SCREEN = document.querySelector(".sign-up");
+const ATTRIBUTION = document.querySelector(".attribution");
+const SUCCESS_MSG = document.querySelector(".success-msg");
 
 
 BUTTON.addEventListener('click', (e) => {
@@ -23,3 +27,5 @@ BUTTON.addEventListener('click', (e) => {
         EMAIL.style.color = "";
     }
 });
+
+
