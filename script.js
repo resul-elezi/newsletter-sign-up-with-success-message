@@ -1,7 +1,7 @@
 "use strict";
 
 const EMAIL = document.getElementById("email");
-const BUTTON = document.getElementById("button");
+const BUTTON = document.getElementById("submit");
 const FORM = document.getElementById("form");
 const ERROR_MSG = document.querySelector(".email-msg");
 
