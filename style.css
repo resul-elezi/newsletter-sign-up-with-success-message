@@ -85,7 +85,7 @@ input {
 ::placeholder {
     font-size: 1rem;
 }
-button {
+#submit {
     position: relative;
     width: 100%;
     height: 3.5rem;
@@ -96,9 +96,8 @@ button {
     cursor: pointer;
     border: none;
     z-index: 1;
-    
 }
-button::before {
+#submit::before {
     content: '';
     position: absolute;
     border-radius: .5rem;
@@ -111,7 +110,7 @@ button::before {
     transition: opacity .3s linear;
     z-index: -1;
 }
-button:hover::before {
+#submit:hover::before {
     opacity: 1;
 }
 .error .email-msg {
@@ -140,6 +139,16 @@ button:hover::before {
 .success-msg p {
     line-height: 1.5;
     margin-bottom: 16.5rem;
+}
+#reset {
+    width: 100%;
+    height: 3.5rem;
+    background: var(--dark-slate-grey);
+    color: var(--white);
+    font-size: 1rem;
+    border-radius: .5rem;
+    cursor: pointer;
+    border: none;
 }
 .attribution {
     display: none;
