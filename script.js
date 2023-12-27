@@ -29,7 +29,7 @@ BUTTON.addEventListener('click', (e) => {
     }
 });
 
-BUTTON.addEventListener("submit", () => {
+FORM.addEventListener("submit", (e) => {
     M_ILLUSTRATION.classList.toggle("success");
     SIGN_UP_SCREEN.classList.toggle("success");
     ATTRIBUTION.classList.toggle("success");
