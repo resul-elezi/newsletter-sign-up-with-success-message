@@ -2,6 +2,7 @@
 
 const EMAIL = document.getElementById("email");
 const BUTTON = document.getElementById("submit");
+const RESET = document.getElementById("reset");
 const FORM = document.getElementById("form");
 const ERROR_MSG = document.querySelector(".email-msg");
 const M_ILLUSTRATION = document.querySelector(".mobile-illust");
@@ -28,4 +29,12 @@ BUTTON.addEventListener('click', (e) => {
     }
 });
 
+BUTTON.addEventListener("submit", () => {
+    M_ILLUSTRATION.classList.toggle("success");
+    SIGN_UP_SCREEN.classList.toggle("success");
+    ATTRIBUTION.classList.toggle("success");
+});
 
+RESET.addEventListener("click", () => {
+    SUCCESS_MSG.classList.toggle("success");
+});
