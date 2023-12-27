@@ -121,8 +121,6 @@ input {
     background: rgba(255, 98, 87, .1);
 }
 .success-msg {
-    min-height: 100vh;
-    min-height: 100svh;
     display: flex;
     flex-direction: column;
     margin: 9.3125rem 1.5rem 2.4375rem 1.5rem;
