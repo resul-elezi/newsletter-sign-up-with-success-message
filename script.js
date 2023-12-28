@@ -26,15 +26,17 @@ BUTTON.addEventListener('click', (e) => {
     } else {
         FORM.classList.remove("error");
         EMAIL.style.color = "";
+        SUCCESS_MSG.style.display = "flex";
+        M_ILLUSTRATION.classList.add("success");
+        SIGN_UP_SCREEN.classList.add("success");
+        ATTRIBUTION.classList.add("success");
     }
 });
 
-FORM.addEventListener("submit", (e) => {
-    M_ILLUSTRATION.classList.toggle("success");
-    SIGN_UP_SCREEN.classList.toggle("success");
-    ATTRIBUTION.classList.toggle("success");
-});
-
-RESET.addEventListener("click", () => {
-    SUCCESS_MSG.classList.toggle("success");
-});
+RESET.addEventListener('click', (e) => {
+        SUCCESS_MSG.style.display = "none";
+        M_ILLUSTRATION.classList.remove("success");
+        SIGN_UP_SCREEN.classList.remove("success");
+        ATTRIBUTION.classList.remove("success");
+        EMAIL.value = "";
+})
