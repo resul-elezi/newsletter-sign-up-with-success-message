@@ -33,7 +33,7 @@ BUTTON.addEventListener('click', (e) => {
     }
 });
 
-RESET.addEventListener('click', (e) => {
+RESET.addEventListener('click', () => {
         SUCCESS_MSG.style.display = "none";
         M_ILLUSTRATION.classList.remove("success");
         SIGN_UP_SCREEN.classList.remove("success");
