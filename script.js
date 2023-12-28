@@ -1,6 +1,7 @@
 "use strict";
 
 const EMAIL = document.getElementById("email");
+const USER_EMAIL = document.getElementById("user-email");
 const BUTTON = document.getElementById("submit");
 const RESET = document.getElementById("reset");
 const FORM = document.getElementById("form");
@@ -30,6 +31,7 @@ BUTTON.addEventListener('click', (e) => {
         M_ILLUSTRATION.classList.add("success");
         SIGN_UP_SCREEN.classList.add("success");
         ATTRIBUTION.classList.add("success");
+        USER_EMAIL.textContent = EMAIL.value;
     }
 });
 
