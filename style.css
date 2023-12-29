@@ -119,8 +119,6 @@ input {
     background: rgba(255, 98, 87, .1);
 }
 .success-msg {
-    /* min-height: 100vh;
-    min-height: 100svh; */
     display: none;
     flex-direction: column;
     margin: 9.3125rem 1.5rem 0 1.5rem;
@@ -154,6 +152,7 @@ input {
 }
 .attribution {
     font-size: 11px; text-align: center; 
+    margin-bottom: .5rem;
 }
 .attribution a {
     color: hsl(228, 45%, 44%);
