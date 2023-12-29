@@ -169,13 +169,12 @@ input {
     }
     main {
         display: flex;
-        min-height: 100%;
         justify-content: center;
+        min-height: 100%;
         align-items: center;
         border-radius: 2.25rem;
     }
     picture, section {
-        width: 100%;
         margin: 1.5rem;
     }
     section {
