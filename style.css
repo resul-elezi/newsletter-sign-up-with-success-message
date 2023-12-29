@@ -120,7 +120,8 @@ input {
 }
 .success-msg {
     display: none;
-    height: 50.75rem;
+    min-height: 100vh;
+    min-height: 100svh;
     flex-direction: column;
     margin: 9.3125rem 1.5rem 0 1.5rem;
 }
