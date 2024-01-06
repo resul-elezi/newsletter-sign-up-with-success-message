@@ -163,8 +163,16 @@ input {
 }
 
 @media screen and (min-width: 46.875em) {
+    html {
+        display: grid;
+        place-items: center;
+        min-height: 100vh;
+    }
     body {
         background-color: var(--charcoal-grey);
+        /* margin: auto;
+        inset: 0; */
+        
         /* padding: 13.6875rem 15.9375rem; */
     }
     main {
@@ -172,6 +180,7 @@ input {
         display: flex;
         justify-content: center;
         max-width: 58.125rem;
+        max-height: 40.125rem;
         min-height: 100%;
         align-items: center;
         border-radius: 2.25rem;
