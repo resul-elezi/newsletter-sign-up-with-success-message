@@ -165,11 +165,13 @@ input {
 @media screen and (min-width: 46.875em) {
     body {
         background-color: var(--charcoal-grey);
-        padding: 13.6875rem 15.9375rem;
+        /* padding: 13.6875rem 15.9375rem; */
     }
     main {
+        margin: 0 auto;
         display: flex;
         justify-content: center;
+        max-width: 58.125rem;
         min-height: 100%;
         align-items: center;
         border-radius: 2.25rem;
