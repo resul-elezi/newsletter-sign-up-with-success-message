@@ -185,10 +185,13 @@ input {
         align-items: center;
         border-radius: 2.25rem;
     }
-    picture, section {
-        margin: 1.5rem;
+    picture {
+        margin: 1.5rem 1.5rem 1.5rem 0;
     }
     section {
         order: -1;
+    }
+    .sign-up {
+        margin-inline: 4rem;
     }
 }
