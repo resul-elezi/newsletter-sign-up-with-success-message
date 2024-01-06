@@ -6,7 +6,7 @@ const BUTTON = document.getElementById("submit");
 const RESET = document.getElementById("reset");
 const FORM = document.getElementById("form");
 const ERROR_MSG = document.querySelector(".email-msg");
-const M_ILLUSTRATION = document.querySelector(".mobile-illust");
+const ILLUSTRATION = document.querySelector(".illust");
 const SIGN_UP_SCREEN = document.querySelector(".sign-up");
 const ATTRIBUTION = document.querySelector(".attribution");
 const SUCCESS_MSG = document.querySelector(".success-msg");
@@ -28,7 +28,7 @@ BUTTON.addEventListener('click', (e) => {
         FORM.classList.remove("error");
         EMAIL.style.color = "";
         SUCCESS_MSG.style.display = "flex";
-        M_ILLUSTRATION.classList.add("success");
+        ILLUSTRATION.classList.add("success");
         SIGN_UP_SCREEN.classList.add("success");
         ATTRIBUTION.classList.add("success");
         USER_EMAIL.textContent = EMAIL.value;
@@ -37,7 +37,7 @@ BUTTON.addEventListener('click', (e) => {
 
 RESET.addEventListener('click', () => {
         SUCCESS_MSG.style.display = "none";
-        M_ILLUSTRATION.classList.remove("success");
+        ILLUSTRATION.classList.remove("success");
         SIGN_UP_SCREEN.classList.remove("success");
         ATTRIBUTION.classList.remove("success");
         EMAIL.value = "";

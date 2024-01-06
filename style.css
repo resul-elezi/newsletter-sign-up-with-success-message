@@ -157,9 +157,10 @@ input {
 .attribution {
     font-size: 11px; text-align: center; 
     margin-block: .5rem;
+    color: hsl(228, 45%, 90%);
 }
 .attribution a {
-    color: hsl(228, 45%, 44%);
+    color: hsl(228, 45%, 80%);
 }
 
 @media screen and (min-width: 46.875em) {
@@ -182,18 +183,22 @@ input {
         justify-content: center;
         align-items: center;
         max-width: 58.125rem;
-        max-height: 40.125rem;
+        max-height: 43.75rem;
         min-height: 100%;
         border-radius: 2.25rem;
     }
     picture {
-        padding: 0;
+        padding-right: 1.5rem;
+        max-width: 100%;
+        width: 52%;
+        height: auto;
     }
     section {
         order: -1;
     }
     .sign-up {
-        margin: 0;
+        margin-top: 0;
+        padding-inline: 2.5rem 2.1875rem;
     }
     .header-sign-up {
         font-size: 3.5rem;
