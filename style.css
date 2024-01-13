@@ -157,10 +157,10 @@ input {
 .attribution {
     font-size: 11px; text-align: center; 
     margin-block: .5rem;
-    color: hsl(228, 45%, 85%);
+    color: hsl(228, 45%, 80%);
 }
 .attribution a {
-    color: hsl(228, 45%, 80%);
+    color: hsl(228, 45%, 75%);
 }
 
 @media screen and (min-width: 46.875em) {
