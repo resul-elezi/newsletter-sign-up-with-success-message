@@ -2,6 +2,7 @@
 
 const EMAIL = document.getElementById("email");
 const USER_EMAIL = document.getElementById("user-email");
+const MAIN = document.getElementById("main");
 const BUTTON = document.getElementById("submit");
 const RESET = document.getElementById("reset");
 const FORM = document.getElementById("form");
@@ -29,6 +30,7 @@ BUTTON.addEventListener('click', (e) => {
         EMAIL.style.color = "";
         SUCCESS_MSG.style.display = "flex";
         ILLUSTRATION.classList.add("success");
+        MAIN.classList.add("desk-vers");
         SIGN_UP_SCREEN.classList.add("success");
         ATTRIBUTION.classList.add("success");
         USER_EMAIL.textContent = EMAIL.value;
@@ -38,6 +40,7 @@ BUTTON.addEventListener('click', (e) => {
 RESET.addEventListener('click', () => {
         SUCCESS_MSG.style.display = "none";
         ILLUSTRATION.classList.remove("success");
+        MAIN.classList.remove("desk-vers");
         SIGN_UP_SCREEN.classList.remove("success");
         ATTRIBUTION.classList.remove("success");
         EMAIL.value = "";
