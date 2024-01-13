@@ -218,15 +218,9 @@ input {
     .success-msg h1 {
         font-size: 3.5rem;
         line-height: 1;
-        margin-bottom: 1.5rem;
     }
-    /* 
-    .success-msg p {
-        line-height: 1.5;
-    }
-    */
     #reset {
-        margin-block: 1rem 3rem;
+        margin-block: 2.5rem 3rem;
         
     } 
 }
