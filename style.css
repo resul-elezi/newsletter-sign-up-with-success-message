@@ -201,27 +201,26 @@ input {
     }
     .success-msg {
         display: none;
-        /* justify-content: center; */
-        align-items: center;
-        /* margin: 41rem 4rem 0 4rem; */
+        margin: 0 auto;
+        background: white;
+        padding: 3.0625rem 3.96875rem 3.96875rem 3.96875rem;
+        max-width: 31.5625rem;
+        max-height: 32.5rem;
+        min-height: 30vh;
+        border-radius: 2.25rem;
     }
     .success-msg img {
         width: 4rem;
         margin-bottom: 2.5rem;
     }
     .desk-vers {
-        display: grid;
-        place-items: center;
-        max-width: 31.5625rem;
-        max-height: 32.5rem;
-        min-height: 100vh;
+        background: var(--charcoal-grey);
     }
     .success-msg h1 {
         font-size: 3.5rem;
         line-height: 1;
     }
     #reset {
-        margin-block: 2.5rem 3rem;
-        
+        margin-block: 2.5rem 0;
     } 
 }
